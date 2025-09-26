@@ -1,0 +1,13 @@
+to do:
+
+20/8
+- cambiar fotos que estan en la galeria de vista en main
+- galeria de fotos completa
+- agregar foto del team en about.html
+- pasar todo a limpio en una nueva pagina
+/// - instagram - facebook - linked in - gmail - alguna publicacion. FALTA HACER PERFILES INSTAGRAM Y FACEBOOK ///
+
+1/8
+- en cada logo hacer un orcamento, no dando precio y llevar a la persona a conversar con ellos. DONE
+- instagram - facebook - linked in - gmail - alguna publicacion. FALTA HACER PERFILES INSTAGRAM Y FACEBOOK
+- adicionar eso y hacer un precio nuevo. DONE

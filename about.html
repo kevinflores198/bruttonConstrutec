@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <title>Brutton Construtec - Sobre Nos</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/modernizr.js"></script>
+    <link rel="icon" type="image/png" href="images/logo-img.png">
+    <script src="https://kit.fontawesome.com/92dadc1c6f.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="top">
+    <!-- header
+   ================================================== -->
+    <header id="nav">
+        <div class="row">
+            <div class="logo">
+                <a href="index.html">Brutton</a>
+            </div>
+            <nav id="navegation">
+                <div class="navegation-content">
+                    <li class="current"><a class="smoothscroll" href="#top">Inicio</a></li>
+                    <li><a class="smoothscroll" href="#cols">Sobre nós</a></li>
+                    <li><a class="smoothscroll" href="#contact">Contato</a></li>
+                </div>
+            </nav>
+            <a class="menu-toggle" href="#"><span>Menu</span></a>
+        </div>
+    </header>
+    <!-- Sobre Nós Section
+   ================================================== -->
+    <section id="about">
+        <div class="row section-intro">
+            <div class="col-twelve with-bottom-line">
+                <h5>Sobre nós</h5>
+                <h1>Mais do que construir, realizamos sonhos.</h1>
+                <p class="caption">
+                    A <strong>BruTTon</strong> é especialista em <em>piso intertravado (paver)</em>, além de atuar em
+                    construção, reformas e serviços complementares. Nosso compromisso é entregar obras de alta
+                    qualidade,
+                    seguras e dentro do prazo.
+                </p>
+                <p class="caption">
+                    Nosso time conta com profissionais em diversas áreas da construção civil: <strong>administração de
+                        obras, elétrica, hidráulica, pintura, acabamentos e muito mais</strong>. Trabalhamos de forma
+                    integrada, cuidando de cada detalhe, do planejamento à entrega final, para que você tenha
+                    tranquilidade, confiança e um espaço transformado do jeito que sempre sonhou.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cols" class="columns-top">
+        <div class="columns">
+            <div class="col col-2">
+                <h3><i class="fa-solid fa-bullseye"></i> Nossa missão</h3>
+                <p>
+                    Tornar a experiência da construção mais simples e positiva, oferecendo soluções completas
+                    que unem eficiência, tecnologia e compromisso humano. Mais do que construir, buscamos
+                    realizar sonhos e agregar valor à vida das pessoas e empresas que confiam em nós.
+                </p>
+            </div>
+            <div class="col">
+                <h3><i class="fa-solid fa-border-all"></i> Especialistas em Paver</h3>
+                <p>
+                    Com anos de experiência em instalação de <strong>pisos intertravados</strong>, a BruTTon
+                    garante soluções que unem <em>durabilidade, estética e praticidade</em>.
+                    Seja em calçadas, garagens, áreas externas ou espaços comerciais, nossos projetos com paver
+                    oferecem resistência, fácil manutenção e valorização do imóvel.
+                </p>
+            </div>
+
+            <div class="col col-another">
+                <h3><i class="fa-solid fa-handshake"></i> Nossos
+                    valores</h3>
+                <ul>
+                    <li>✔ Transparência e respeito em cada etapa</li>
+                    <li>✔ Compromisso com prazos e qualidade</li>
+                    <li>✔ Atendimento humanizado e próximo do cliente</li>
+                    <li>✔ Excelência em execução e acabamentos</li>
+                    <li>✔ Segurança e responsabilidade em todas as obras</li>
+                </ul>
+            </div>
+        </div>
+        <div id="hero-about" class="columns col">
+            <div class="col-three">
+                <h2>Por que escolher a BruTTon Construtec?</h2>
+                <p class="lead">
+                    Porque não instalamos apenas blocos de concreto. Criamos áreas externas planejadas para serem
+                    resistentes, seguras e bonitas por muitos anos.
+                    Nossa equipe acompanha todo o processo, da preparação do solo ao acabamento final,
+                    garantindo que cada detalhe seja feito com perfeição.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <div  class="contact-us">
+        <div style="background-color: var(--clear);" class="contact-us-content">
+            <h2 style="color: var(--dark); margin: 1rem;padding-bottom: 2rem;">Quer transformar sua área com piso intertravado?</h2>
+            <a href="https://wa.me/5511959990095?text=Olá!%20Tenho%20interesse%20em%20um%20orçamento%20de%20piso%20intertravado."
+                class="button button-primary" target="_blank">Peça seu orçamento</a>
+        </div>
+    </div>
+
+    <!-- footer ================================================== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h3>Brutton</h3>
+                    <a>São José, SC Brasil</a>
+                    <a style="font-size: 1.4rem;"  href="#" onclick="sendEmail(event)">brutton.construtec28@gmail.com</a>
+                    <script>
+                        function sendEmail(e) {
+                            // evita que el <a href="#"> refresque la página
+                            e.preventDefault();
+
+                            // Primero intentamos mailto
+                            window.location.href = "mailto:brutton.construtec28@gmail.com?subject=Contato%20via%20site%20BruTTon&body=Ol%C3%A1,%20gostaria%20de%20solicitar%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os.";
+
+                            // Si en 1 segundo no abrió nada, redirigimos a Gmail
+                            setTimeout(function () {
+                                window.open(
+                                    "https://mail.google.com/mail/?view=cm&fs=1&to=brutton.construtec28@gmail.com&su=Contato%20via%20site%20BruTTon&body=Ol%C3%A1,%20gostaria%20de%20solicitar%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20servi%C3%A7os.",
+                                    "_blank"
+                                );
+                            }, 1000);
+                        }
+                    </script>
+                    <a href="https://wa.me/48999223208?text=Olá!%20Estou%20interessado(a)%20em%20um%20orçamento%20ou%20visita%20técnica%20da%20BruTTon%20Construtec."
+                        target="_blank">+48 9992-3208</a>
+                    <a href="https://wa.me/5511959990095?text=Olá!%20Estou%20interessado(a)%20em%20um%20orçamento%20ou%20visita%20técnica%20da%20BruTTon%20Construtec."
+                        target="_blank">+11 9599-90095</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Sobre nós</h3>
+                    <a href="about.html">Um pouco de nós</a>
+                    <a href="galery.html">Galeria de fotos</a>
+					<a href="about.html">Especialistas em Paver</a>
+
+                </div>
+                <div class="footer-col">
+                    <h3>Redes</h3>
+                    <a href="#">Facebook</a>
+                    <a href="https://www.instagram.com/construtorabrutton/">Instagram</a>
+                    <h4>Em Breve</h4>
+                    <a href="#">TikTok</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">YouTube</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>
+                        &copy; <span id="currentyear"></span>
+                        BruTTon Construtec. Todos os direitos reservados.
+                    </p>
+                    <a href="https://github.com/kevinflores198">Desenhado por Kevin Flores</a>
+                </div>
+                <div class="arrowUp" id="arrowUp">
+                    <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+                <div className="scroll"></div>
+            </div>
+        </div>
+    </footer>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
